@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: testimage:v1
+        image: IMGAE_REP
         ports:
         - containerPort: 80

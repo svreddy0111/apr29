@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("One"){
 			steps{
-				echo "This is Testing ${BRANCH_NAME}"
+				echo "This is Testing"
 			}
 		}
 	}
